@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>背景水印</title>
+  <script src='jquery.min.js'></script>
+  <script src="bss-mark.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #main {
+      height: 100vh;
+      width: 100vw;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main"><a href="javascript:;">兼容IE9+(包含IE9)</a>
+  </div>
+  <script>
+    new bssmark($('#main'), {
+      text: 'soon 001298420'
+    })
+  </script>
+</body>
+
+</html>
